@@ -97,7 +97,8 @@ The collection of sentiment analysis data took place over 16 days spanning from 
 
 The chart below from dates 2/16-2/20 is an example of how the bot displayed the data. It includes the time each day, but putting the cursor over the beginning of the day gives a condensed daily value.
 
-![img](assets/Dylan1.png)
+<img width="461" alt="Dylan1" src="https://user-images.githubusercontent.com/82049573/165593336-a9d6519f-0af1-4e73-a1b3-2450c308a2b0.png">
+ng)
 
 Fig. 1. Date and time (x-axis), Average Negative (red line, y-axis), Average Positive (green line, y-axis). Chart generated from Deephaven IDE.
 
