@@ -1,7 +1,8 @@
-This last year I worked with Dylan Carter on an [AP Research](https://apstudents.collegeboard.org/courses/ap-research) project. 
+This last year, our dev-rel engineer Amanda Martin worked with high schooler Dylan Carter on an [AP Research](https://apstudents.collegeboard.org/courses/ap-research) project. Congrats to Dylan on an excellent capstone project, and we're proud to be part of his work.
+
 In this college level course, high school students develop critical thinking and research skills, devoting an academic year to their own research. Dylan established a Twitter Developer account and used Deephaven to answer the questions, "What connection can be made between Solana price changes and Twitter data, and how can that connection be used to make short-term price predictions?"
 
-We're proud to be a part of his work. With permission from Dylan and his AP instructor, his paper is shown in full below:
+With permission from Dylan and his AP instructor, his paper is shown in full below:
 
 # Solana Price Prediction Using Twitter Volume and Sentiment Analysis Data
 
