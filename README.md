@@ -98,7 +98,6 @@ The collection of sentiment analysis data took place over 16 days spanning from 
 The chart below from dates 2/16-2/20 is an example of how the bot displayed the data. It includes the time each day, but putting the cursor over the beginning of the day gives a condensed daily value.
 
 <img width="461" alt="Dylan1" src="https://user-images.githubusercontent.com/82049573/165593336-a9d6519f-0af1-4e73-a1b3-2450c308a2b0.png">
-ng)
 
 Fig. 1. Date and time (x-axis), Average Negative (red line, y-axis), Average Positive (green line, y-axis). Chart generated from Deephaven IDE.
 
@@ -128,25 +127,25 @@ This section explores the data collected for sentiment analysis, volume, and pri
 
 The mean for daily positive sentiment was 0.1416, while the mean for average daily price was $93.38. The standard deviation in daily positive sentiment was found to be 0.0146, while the standard deviation in price was $5.95. From this data, we can deduce that positive sentiment had less connection to the mean than changes in Solana price throughout the time period. This point is furthered by the linear regression graph pictured below. As displayed, positive sentiment for Solana tweets trended upwards over the period of 16 days, while Solana price trended downward. Moreover, the r squared value for positive sentiment was 0.199, while the r squared value for Solana price was 0.588. This point indicates that Solana prices are fairly easier to follow based on trends in the mean compared to positive sentiment.
 
-![img](assets/Dylan2.png)
+<img width="237" alt="Dylan2" src="https://user-images.githubusercontent.com/82049573/165593688-6f8e455c-b2cb-42bd-ba16-201aa4951008.png">
 
 Fig. 2. Date (x-axis), Solana Price (red line, right y-axis), Positive Sentiment (blue line, left y-axis). Chart created in Microsoft Excel.
 
 The below chart displays a linear regression graph without dates and is used more to compare the relationship distinctly between price and positive sentiment rather than over time. As shown, there’s a weak negative relationship between the variables as Solana price slightly decreases along the trend line as the average positive value increases. The r squared value for this trend line was only 0.073, reflecting a weak relationship between Solana price and positive sentiment. Based on this finding, it’s recommended that price prediction models refrain from utilizing changes in positive sentiment as a central variable.
 
-![img](assets/Dylan3.png)
+<img width="210" alt="Dylan3" src="https://user-images.githubusercontent.com/82049573/165593717-67187a54-05d0-408c-b3ca-757d1e99f2cd.png">
 
 Fig. 3. Positive Sentiment (x-axis), Solana Price (y-axis). Chart created in Microsoft Excel.
 
 Moving on, the mean for the negative sentiment data was 0.0154, while the mean for price was $93.38. The standard deviation in daily negative sentiment was 0.0057, while the standard deviation in price was $5.95. Based on this, price continued to have a greater connection to the mean than any sentiment value when sorted by date. This can be explained further by the linear regression graph pictured below.
 
-![img](assets/Dylan4.png)
+<img width="218" alt="Dylan4" src="https://user-images.githubusercontent.com/82049573/165593739-c12a31e9-0cd5-433a-bf26-ea39d8c40ddf.png">
 
 Fig. 4. Date (x-axis), Solana Price (red line, right y-axis), Negative Sentiment (blue line, left y-axis). Chart created in Microsoft Excel.
 
 It can be seen that Solana price trended downwards while negative sentiment trended upwards. In addition, the r squared value for negative sentiment was 0.254, while the r squared value for Solana price was again 0.588. This reinforces the idea that prices have a stronger connection to the line of best fit over time. However, the other linear regression graph below portrays a different idea than the one above.
 
-![img](assets/Dylan5.png)
+<img width="225" alt="Dylan5" src="https://user-images.githubusercontent.com/82049573/165593769-1767a2a1-83c6-4dfd-84b0-7ed981f5b47c.png">
 
 Fig. 5. Negative Sentiment (x-axis), Solana Price (y-axis). Chart created in Microsoft Excel.
 
@@ -157,13 +156,13 @@ The above graph looks at the relationship solely between Solana price and negati
 In this section, the relationship between Solana tweet volume and Solana prices are analyzed. Values for tweet volume were rounded to the nearest whole number while price values were rounded to the nearest cent.
 The mean for daily tweet volume in this data set was 64,870 tweets, while the mean for average daily price was $99.21. The standard deviation in daily volume was found to be 9935 tweets, while the standard deviation in price was found to be $9.70. From these findings, it is deduced that from this time period, tweet volume had less connection to the mean than Solana price. The linear regression graph below displays the trendline of both tweet volume and price.
 
-![img](assets/Dylan6.png)
+<img width="246" alt="Dylan6" src="https://user-images.githubusercontent.com/82049573/165593799-1fa00482-2548-4baa-890e-ec95163337a9.png">
 
 Fig. 6. Date (x-axis), Solana Price (red line, right y-axis), Tweet Volume (blue line, left y-axis). Chart created in Microsoft Excel.
 
 Seen in the lines of best fit, Solana price again trended downward throughout the 31-day time period while tweet volume trended upward. The r squared value for tweet volume was 0.288 while the r squared value for price was 0.533. This point again indicates that Solana prices differentiate less from the line of best fit than the opposing variable. The final regression model pictured below looks at the relationship between price and volume as the only two variables.
 
-![img](assets/Dylan7.png)
+<img width="252" alt="Dylan7" src="https://user-images.githubusercontent.com/82049573/165593825-7cd3e2d4-265b-4885-9967-51985af962bc.png">
 
 Fig. 7. Tweet Volume (x-axis), Solana Price (y-axis). Chart created in Microsoft Excel.
 
@@ -187,13 +186,13 @@ Lastly, the connection between daily tweet volume and average daily price is con
 
 As seen in the table below, the results of each section of the paper led to a negative price prediction for Solana in the short-term (12 days into the future). Although some varied in statistical strength, each suggested a reduced price in the near future.
 
-![img](assets/Dylan8.png)
+<img width="662" alt="Dylan8" src="https://user-images.githubusercontent.com/82049573/165593879-b3d512c1-11fc-4391-afcc-2cbc130160fd.png">
 
 Fig. 8. Table created in Google Docs.
 
 As the collection of tweet sentiment ended on February 27th, the changes in price from then to 12 days ahead on March 11th was observed and displayed in the graphs below. The price of Solana on 2/27 was $88.21, while the price of Solana at the end of the time period was $81.70. Based on these numbers and what can be observed in the graph below, the price of Solana continued to decrease following the end of data collection. Therefore, the sentiment-based prediction that the future price of Solana after 12 days would be lower than at the beginning of the time period was correct.
 
-![img](assets/Dylan9.png)
+<img width="468" alt="Dylan9" src="https://user-images.githubusercontent.com/82049573/165593942-460f1339-2135-4959-a1ad-7956bc81b0df.png">
 
 Fig. 9. Date (x-axis), Solana Price USD (red line, right y-axis), Solana Price BTC (blue line, left y-axis). Chart retrieved from bitinfocharts.
 
@@ -201,7 +200,7 @@ As the trendline for Solana price over the time period specific to tweet volume 
 
 The collection of tweet volume ended on March 4th, the changes in price from then to 12 days ahead on March 16th was observed and displayed in the graph below. The price of Solana on 3/4 was $91.40, while the price of Solana at the end of the time period was $83.84. Based on these numbers and the trend observable in the graph, the price of Solana continued decreasing following the end of collecting volume data. Therefore, the prediction that the future price of Solana after 12 days would be lower than at the beginning based on volume data was also correct.
 
-![img](assets/Dylan10.png)
+<img width="463" alt="Dylan10" src="https://user-images.githubusercontent.com/82049573/165593977-d078040c-c246-48f2-b55d-40f59e79100f.png">
 
 Fig. 10. Date (x-axis), Solana Price USD (red line, right y-axis), Solana Price BTC (blue line, left y-axis)
 
